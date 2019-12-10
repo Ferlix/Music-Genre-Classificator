@@ -1,2 +1,5 @@
-data/
+data/genres.tar.gz
+data/genres
+data/spectrograms
+data/spectrograms.zip
 .idea/
