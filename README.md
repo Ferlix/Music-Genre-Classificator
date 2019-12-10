@@ -2,7 +2,8 @@
 
  * Classify music files based on genre from the GTZAN music corpus
  * GTZAN corpus is included for easy of use
- * Use multiple layers of CNN (to be implemented)
+ * CNN (to be implemented)
+ * CRNN (to be implemented)
  * Implementated in Tensorflow
 
 ### Audio features extracted
