@@ -1,7 +1,7 @@
 # Music-Genre-Classificator
 
  * Classify music files based on genre from the GTZAN music corpus
- * GTZAN corpus is included for easy of use
+ * GTZAN corpus not included for git memory problems (> 1GB) 
  * CNN (to be implemented)
  * CRNN (to be implemented)
  * Implementated in Tensorflow
@@ -21,6 +21,11 @@ The jupyter notebook for the pre-processing uses the following dependencies:
  * glob (to read files)
  * matplotlib (to save spectrograms)
 
+To run it properly, include in the /data folder a "/genres" folder, which can be downlaoded from here:
+
+http://marsyas.info/downloads/datasets.html
+
+Keep in the "genres" folder only the subfolder with the sound files (i.e. "data/genres/hip-hop", "data/genres/jazz", ...) and nothing else
 
 ### Model dependencies
 To be modelled
