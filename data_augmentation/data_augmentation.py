@@ -52,12 +52,12 @@ for filename in glob.iglob(rootdir_glob, recursive=True):
         save_fileName = save_path  + save_folder + "/" + name
         augment_option = random.randint(1, 3)
         if(augment_option==1):
-            noise_factor = random.randint(5,10)/100
+            noise_factor = np.random.normal(0,2)/100
             augment_data = manipulate(x,noise_factor)
             #librosa.output.write_wav("/Users/jindeshubham/PycharmProjects/music/genres/noise_1.wav", augment_data,
             #                         sampleRate)
         elif(augment_option==2):
-            pitch_factor = random.randint(5,10)/100
+            pitch_factor = np.random.normal(0,2)/100
             augment_data = pitch_shift(x,sampleRate,pitch_factor)
             #librosa.output.write_wav("/Users/jindeshubham/PycharmProjects/music/genres/pitch_1.wav", augment_data,
             #                         sampleRate)
