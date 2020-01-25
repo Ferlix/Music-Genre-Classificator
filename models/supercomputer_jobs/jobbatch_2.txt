@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --time=48:00:00
+#SBATCH --mem=25000
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:1
+#SBATCH --nodes=1
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=f.ferlito@student.rug.nl
+module load GCCcore/6.4.0
+module load scikit-learn/0.19.1-foss-2018a-Python-3.6.4
+module load Pillow/5.0.0-foss-2018a-Python-3.6.4  
+module load matplotlib/2.1.2-foss-2018a-Python-3.6.4
+pip3 install --user tensorflow==2.0.0-alpha  
+pip3 install --user -U tf-nightly-2.0-preview 
+pip install --user tensorflow-hub
+python3 -O tl_nadam_f_full.py <<EOF
+
