@@ -39,7 +39,7 @@ For exctracting the audio features, the library *librosa* was used.
 | Model | Trainig accuracy | Test accuracy |
 | --- | --- | --- |
 | [MobileNet V2](https://tfhub.dev/google/tf2-preview/mobilenet_v2/feature_vector/4) (TL) | 99% | 70% |
-| [Inception V3](https://tfhub.dev/google/tf2-preview/inception_v3/feature_vector/4)(TL) | 99% | 83% |
+| [Inception V3](https://tfhub.dev/google/tf2-preview/inception_v3/feature_vector/4)(TL) | 99% | 84% |
 | CNN | x | x |
 | RNN | x | 0.6 |
 | CRNN | x | x |
