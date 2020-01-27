@@ -29,7 +29,8 @@ For exctracting the audio features, the library *librosa* was used.
  
  * Combination of [Mel-frequency spectogram](https://librosa.github.io/librosa/generated/librosa.feature.melspectrogram.html), [spectral centroid](https://librosa.github.io/librosa/generated/librosa.feature.spectral_centroid.html) and [spectral contrast](https://librosa.github.io/librosa/generated/librosa.feature.spectral_contrast.html) stacked as images of size 512x512
 
-Example of Mel-frequency Spectrograms
+*Example of Mel-frequency Spectrograms*
+
 <img src="https://github.com/Ferlix/Music-Genre-Classificator/blob/master/pre-processing/examples_preproc.png" width="500" align="middle">
 
 
