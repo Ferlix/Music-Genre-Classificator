@@ -31,7 +31,7 @@ For exctracting the audio features, the library *librosa* was used.
 
 *Example of Mel-frequency Spectrograms*
 
-<img src="https://github.com/Ferlix/Music-Genre-Classificator/blob/master/pre-processing/examples_preproc.png" width="500" align="middle">
+<img src="https://github.com/Ferlix/Music-Genre-Classificator/blob/master/pre-processing/examples_preprocessing.png" width="500" align="middle">
 
 
 ### Results
