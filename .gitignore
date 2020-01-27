@@ -1,4 +1,8 @@
 data/genres.tar.gz
-data/genres
-data/spectrograms
 .idea/
+models/.ipynb_checkpoints/
+data/
+data_augmentation/.ipynb_checkpoints/
+pre-processing/.ipynb_checkpoints/
+models/Baseline_CNN_Music_Genre_Classifier.ipynb
+models/RNN_Music_Genre_Classifier.ipynb
