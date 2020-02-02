@@ -3,9 +3,8 @@
 Different architectures to lassify music files based on genre from the GTZAN music corpus, namely:
  * Convolutional Neural Network (CNN)
  * Recurrant Neural Network (RNN)
- * Mixed CNN and RNN 
- * SVM
- * Deep RNN with transfer learning
+ * Inception V3
+ * MobileNet V2
 
 (Implementated with Tensorflow)
 
@@ -38,10 +37,8 @@ For exctracting the audio features, the library *librosa* was used.
 
 | Model | Trainig accuracy | Test accuracy |
 | --- | --- | --- |
-| [MobileNet V2](https://tfhub.dev/google/tf2-preview/mobilenet_v2/feature_vector/4) (TL) | 99% | 70% |
+| [MobileNet V2](https://tfhub.dev/google/tf2-preview/mobilenet_v2/feature_vector/4) (TL) | 77% | 77% |
 | [Inception V3](https://tfhub.dev/google/tf2-preview/inception_v3/feature_vector/4)(TL) | 99% | 84% |
-| CNN | x | x |
-| RNN | x | 0.6 |
-| CRNN | x | x |
-| SVM | x | x |
+| CNN | 55% | 62% |
+| RNN | 77% | 66% |
 
